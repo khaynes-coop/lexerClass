@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Package plc.project</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Package plc.project</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; plc.project</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">28</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">28</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.020s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Classes</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testCharacter(String, String, boolean)[1]">[1] Alphabetic, 'c', true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testCharacter(String, String, boolean)[2]">[2] Newline Escape, '\n', true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testCharacter(String, String, boolean)[3]">[3] Empty, '', false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testCharacter(String, String, boolean)[4]">[4] Multiple, 'abc', false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testDecimal(String, String, boolean)[1]">[1] Multiple Digits, 123.456, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testDecimal(String, String, boolean)[2]">[2] Negative Decimal, -1.0, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testDecimal(String, String, boolean)[3]">[3] Trailing Decimal, 1., false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testDecimal(String, String, boolean)[4]">[4] Leading Decimal, .5, false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testExamples(String, String, List)[1]">[1] Example 1, LET x = 5;, [IDENTIFIER=LET@0, IDENTIFIER=x@4, OPERATOR==@6, INTEGER=5@8, OPERATOR=;@9]</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testExamples(String, String, List)[2]">[2] Example 2, print(&quot;Hello, World!&quot;);, [IDENTIFIER=print@0, OPERATOR=(@5, STRING=&quot;Hello, World!&quot;@6, OPERATOR=)@21, OPERATOR=;@22]</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testException()">testException()</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testIdentifier(String, String, boolean)[1]">[1] Alphabetic, getName, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testIdentifier(String, String, boolean)[2]">[2] Alphanumeric, thelegend27, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testIdentifier(String, String, boolean)[3]">[3] Leading Hyphen, -five, false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testIdentifier(String, String, boolean)[4]">[4] Leading Digit, 1fish2fish3fishbluefish, false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testInteger(String, String, boolean)[1]">[1] Single Digit, 1, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testInteger(String, String, boolean)[2]">[2] Multiple Digits, 12345, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testInteger(String, String, boolean)[3]">[3] Negative, -1, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testInteger(String, String, boolean)[4]">[4] Leading Zero, 01, false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testOperator(String, String, boolean)[1]">[1] Character, (, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testOperator(String, String, boolean)[2]">[2] Comparison, !=, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testOperator(String, String, boolean)[3]">[3] Space,  , false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testOperator(String, String, boolean)[4]">[4] Tab, 	, false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testString(String, String, boolean)[1]">[1] Empty, &quot;&quot;, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testString(String, String, boolean)[2]">[2] Alphabetic, &quot;abc&quot;, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testString(String, String, boolean)[3]">[3] Newline Escape, &quot;Hello,\nWorld&quot;, true</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testString(String, String, boolean)[4]">[4] Unterminated, &quot;unterminated, false</a>
+</li>
+<li>
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>.
+<a href="../classes/plc.project.LexerTests.html#testString(String, String, boolean)[5]">[5] Invalid Escape, &quot;invalid\escape&quot;, false</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
+<h2>Classes</h2>
+<table>
+<thread>
+<tr>
+<th>Class</th>
+<th>Tests</th>
+<th>Failures</th>
+<th>Ignored</th>
+<th>Duration</th>
+<th>Success rate</th>
+</tr>
+</thread>
+<tr>
+<td class="failures">
+<a href="../classes/plc.project.LexerTests.html">LexerTests</a>
+</td>
+<td>28</td>
+<td>28</td>
+<td>0</td>
+<td>0.020s</td>
+<td class="failures">0%</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.6</a> at Sep 14, 2021 3:17:52 PM</p>
+</div>
+</div>
+</body>
+</html>

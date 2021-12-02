@@ -1,2 +1,73 @@
+plc/project/Lexer.java
+ plc.project.Lexer
+ plc.project.Lexer$CharStream
+plc/project/Ast.java
+ plc.project.Ast
+ plc.project.Ast$Expression
+ plc.project.Ast$Expression$Access
+ plc.project.Ast$Expression$Binary
+ plc.project.Ast$Expression$Function
+ plc.project.Ast$Expression$Group
+ plc.project.Ast$Expression$Literal
+ plc.project.Ast$Expression$PlcList
+ plc.project.Ast$Function
+ plc.project.Ast$Global
+ plc.project.Ast$Source
+ plc.project.Ast$Statement
+ plc.project.Ast$Statement$Assignment
+ plc.project.Ast$Statement$Case
+ plc.project.Ast$Statement$Declaration
+ plc.project.Ast$Statement$Expression
+ plc.project.Ast$Statement$If
+ plc.project.Ast$Statement$Return
+ plc.project.Ast$Statement$Switch
+ plc.project.Ast$Statement$While
+ plc.project.Ast$Visitor
+plc/project/Token.java
+ plc.project.Token
+ plc.project.Token$Type
+plc/homework/Ast.java
+ plc.homework.Ast
+ plc.homework.Ast$Expression
+ plc.homework.Ast$Expression$Access
+ plc.homework.Ast$Expression$Binary
+ plc.homework.Ast$Expression$Function
+ plc.homework.Ast$Expression$Group
+ plc.homework.Ast$Expression$Literal
+ plc.homework.Ast$Expression$PlcList
+ plc.homework.Ast$Function
+ plc.homework.Ast$Global
+ plc.homework.Ast$Source
+ plc.homework.Ast$Statement
+ plc.homework.Ast$Statement$Assignment
+ plc.homework.Ast$Statement$Case
+ plc.homework.Ast$Statement$Declaration
+ plc.homework.Ast$Statement$Expression
+ plc.homework.Ast$Statement$If
+ plc.homework.Ast$Statement$Return
+ plc.homework.Ast$Statement$Switch
+ plc.homework.Ast$Statement$While
 plc/homework/Regex.java
  plc.homework.Regex
+plc/project/Interpreter.java
+ plc.project.Interpreter
+ plc.project.Interpreter$Return
+plc/project/ParseException.java
+ plc.project.ParseException
+plc/project/Scope.java
+ plc.project.Scope
+plc/project/Analyzer.java
+ plc.project.Analyzer
+plc/project/Parser.java
+ plc.project.Parser
+ plc.project.Parser$1
+ plc.project.Parser$TokenStream
+plc/project/Environment.java
+ plc.project.Environment
+ plc.project.Environment$1
+ plc.project.Environment$Function
+ plc.project.Environment$PlcObject
+ plc.project.Environment$Type
+ plc.project.Environment$Variable
+plc/project/Generator.java
+ plc.project.Generator
